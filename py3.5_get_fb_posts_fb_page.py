@@ -3,10 +3,12 @@ import json
 import datetime
 import csv
 import time
+import sys
 
 app_id = "***REMOVED***"
 app_secret = "***REMOVED***"  # DO NOT SHARE WITH ANYONE!
-page_id = "ndtv"
+page_id = ""
+
 
 access_token = app_id + "|" + app_secret
 
@@ -191,4 +193,5 @@ def scrapeFacebookPageFeedStatus(page_id, access_token):
 
 
 if __name__ == '__main__':
+    page_id = str(sys.argv[1])
     scrapeFacebookPageFeedStatus(page_id, access_token)
