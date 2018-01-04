@@ -9,8 +9,8 @@ import urllib.request
 
 from stop_words import get_stop_words
 
-app_id = "***REMOVED***"
-app_secret = "***REMOVED***"  # DO NOT SHARE WITH ANYONE!
+app_id = ""
+app_secret = ""  # DO NOT SHARE WITH ANYONE!
 page_id = ""
 
 
